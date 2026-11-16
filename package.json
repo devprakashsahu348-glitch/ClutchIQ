@@ -1,0 +1,2 @@
+{"name":"clutchiq","version":"1.0.0","private":true,"description":"ClutchIQ - cricket pressure-performance rankings","license":"UNLICENSED","author":"Dev Prakash Sahu <devprakashsahu348@gmail.com>","engines":{"node":">=20"},
+"dependencies":{"@neondatabase/serverless":"^0.10.4","bcryptjs":"^2.4.3","jsonwebtoken":"^9.0.2","nodemailer":"^6.9.16"}}

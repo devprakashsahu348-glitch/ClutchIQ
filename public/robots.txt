@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /dashboard
+Disallow: /reset
+
+Sitemap: https://clutchiq.vercel.app/sitemap.xml
