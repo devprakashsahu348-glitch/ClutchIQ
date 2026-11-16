@@ -4,4 +4,4 @@ Disallow: /api/
 Disallow: /dashboard
 Disallow: /reset
 
-Sitemap: https://clutchiq.vercel.app/sitemap.xml
+Sitemap: https://clutchiq-tau.vercel.app/sitemap.xml

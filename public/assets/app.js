@@ -50,3 +50,11 @@ const p=new URLSearchParams(location.search),n=$("#notice");
 if(n){if(p.get("registered"))n.textContent="Account created. Please log in.";else if(p.get("reset"))n.textContent="Password updated. Please log in with your new password.";else n.remove()}
 const tk=$("input[name=token]");if(tk)tk.value=p.get("token")||"";
 })();
+(()=>{const $$=(s)=>[...document.querySelectorAll(s)],rm=matchMedia("(prefers-reduced-motion:reduce)").matches;
+if(rm)$$("animateMotion").forEach(a=>a.remove());
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const t=e.target;io.unobserve(t);t.classList.add("in");
+if(t.dataset.count&&!rm){const end=+t.dataset.count,t0=performance.now();const f=n=>{const p=Math.min(1,(n-t0)/1400);t.textContent=Math.round(end*(1-Math.pow(1-p,3))).toLocaleString();if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)}}),{threshold:.25});
+$$("main .card,main section.block h2,main .stat,main details").forEach((el,i)=>{if(!el.closest(".auth")){el.classList.add("reveal");el.style.setProperty("--d",(i%3)*.1+"s")}});
+$$(".reveal,[data-count]").forEach(el=>io.observe(el));
+const pv=document.getElementById("pv");if(pv){const S=[[.18,"Over 4 · need 52 off 96 · 1 down"],[.46,"Over 13 · need 71 off 42 · 4 down"],[.74,"Over 17 · need 38 off 18 · 6 down"],[.93,"Over 19 · need 21 off 6 · 8 down"]];let i=0;
+const go=()=>{const[v,l]=S[i++%S.length];document.getElementById("pb").style.width=v*100+"%";pv.textContent=v.toFixed(2);document.getElementById("pl").textContent=l};setTimeout(()=>{go();if(!rm)setInterval(go,3200)},600)}})();

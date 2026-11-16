@@ -2,8 +2,8 @@
 
 > ClutchIQ ranks IPL and T20I batters and bowlers by performance under pressure, using ball-by-ball data from 2022.
 
-- [Home](https://clutchiq.vercel.app/): overview and top three players
-- [Methodology](https://clutchiq.vercel.app/methodology): pressure index, ratings, limitations
-- [Pricing](https://clutchiq.vercel.app/pricing): free plan and planned Pro plan
-- [Contact](https://clutchiq.vercel.app/contact): devprakashsahu348@gmail.com
-- [Privacy](https://clutchiq.vercel.app/privacy), [Terms](https://clutchiq.vercel.app/terms), [Cookies](https://clutchiq.vercel.app/cookies), [Payment terms](https://clutchiq.vercel.app/payment-terms)
+- [Home](https://clutchiq-tau.vercel.app/): overview and top three players
+- [Methodology](https://clutchiq-tau.vercel.app/methodology): pressure index, ratings, limitations
+- [Pricing](https://clutchiq-tau.vercel.app/pricing): free plan and planned Pro plan
+- [Contact](https://clutchiq-tau.vercel.app/contact): devprakashsahu348@gmail.com
+- [Privacy](https://clutchiq-tau.vercel.app/privacy), [Terms](https://clutchiq-tau.vercel.app/terms), [Cookies](https://clutchiq-tau.vercel.app/cookies), [Payment terms](https://clutchiq-tau.vercel.app/payment-terms)
